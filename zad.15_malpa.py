@@ -4,6 +4,15 @@ Created on Tue Oct 25 01:18:00 2022
 
 @author: t-jan
 """
+
+'''
+Zadanie 15. Małpa pisze na klawiaturze mającej 26 małych liter (alfabet ang-
+ielski). Każda litera może wystąpić niezależnie od innych z tym samym praw-
+dopodobieństwem. Jeśli małpa napisała 1000000 liter, jaka jest wartość oczeki-
+wana liczby wystąpień słowa "dowod"?
+'''
+
+
 import random
 
 alfabet=('q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m')
