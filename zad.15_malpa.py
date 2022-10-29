@@ -11,7 +11,11 @@ ielski). Każda litera może wystąpić niezależnie od innych z tym samym praw-
 dopodobieństwem. Jeśli małpa napisała 1000000 liter, jaka jest wartość oczeki-
 wana liczby wystąpień słowa "dowod"?
 '''
-
+'''
+Analitycznie: byloby 999996 / 26^5 = 0.084, ale po 'dowod' jest wieksza szansa
+ze znowu bedzie, bo juz jedna literka jest i nie bedzie zdarzenie niezalezne;
+wieksza szansa bedzie, ok 0.095 chyba jak wyszlo z symulacji
+'''
 
 import random
 
