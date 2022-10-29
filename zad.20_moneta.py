@@ -12,7 +12,6 @@ ograniczeniem otrzymanym z nierówności Chernoffa. Wykonaj podobne obliczenia
 dla 1000 rzutów monetą i prawdopodobieństwa wypadniecie co najmniej 550
 orłów.
 '''
-
 '''
 Analitycznie:
 Nierównosć Chernoffa: P( X >= (1+delta)*EX ) <= [(e^delta) / (1+delta)^(1+delta)]^EX
@@ -22,7 +21,6 @@ EX=50(500) -> delta=0.1 -> P(X>=50,n=100)<=0.79; P(X>=500,n=1000)<=0.089
 # P(X>=50,n=100) <= 0.7850091625435333  # Chernoff
 # P(X>=550,n=1000) = 0.0008652680424881586  # dokladny wynik
 # P(X>=500,n=1000) <= 0.08886837892405824  # Chernoff
-
 '''
 import math
 import random
